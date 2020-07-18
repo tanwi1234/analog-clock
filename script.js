@@ -6,7 +6,7 @@ var date= new Date();
   let hr= date.getHours();
   let min= date.getMinutes();
   let sec= date.getSeconds();
-  console.log("hour:"+ hr +"min:"+ min +"sec:"+ sec );
+  console.log(" hour: "+ hr +" min: "+ min +" sec: " + sec );
 
   let hrposition= (hr*360/12)+(min*(360/60)/12);
   let minposition=(min*360/60)+(sec*(360/60)/60);
